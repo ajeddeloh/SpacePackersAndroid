@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpacePackersAndroid</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="game_title">SPACEPACKERS</string>
+    <string name="game_subtitle">super alpha v0.000001</string>
+    <string name="play_button_text">PLAY GAME</string>
+    <string name="help_button_text">INSTRUCTIONS</string>
+    <string name="level_select_title">SELECT A LEVEL</string>
+    <string name="back_button_text">BACK</string>
+    <string name="title_activity_level_select">level select screen</string>
+    <string name="title_activity_game">activity for the game</string>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jeddelog.spacepackers" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <activity
+            android:name="com.jeddelog.spacepackers.MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name="com.jeddelog.spacepackers.LevelSelectActivity"
+            android:label="@string/title_activity_level_select">
+        </activity>
+        <activity
+            android:name="com.jeddelog.spacepackers.GameActivity"
+            android:label="@string/title_activity_game">
+        </activity>
+
+    </application>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19"></uses-sdk>
+
+</manifest>
